@@ -2,7 +2,6 @@
   "name": "hernan-cresple-backend",
   "version": "1.0.0",
   "description": "APIs to fetch data from various football seasons",
-  "main": "index.js",
   "scripts": {
     "coverage": "nyc npm run test",
     "test": "ENV=test ava -v -s"
@@ -11,10 +10,8 @@
   "license": "ISC",
   "dependencies": {
     "@fastify/cors": "^8.3.0",
-    "cheerio": "^1.0.0-rc.12",
     "fastify": "^4.23.2",
-    "mongodb": "^6.1.0",
-    "yargs": "^17.7.2"
+    "mongodb": "^6.1.0"
   },
   "devDependencies": {
     "ava": "^5.3.1",
