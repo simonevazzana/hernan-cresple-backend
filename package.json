@@ -4,6 +4,7 @@
   "description": "APIs to fetch data from various football seasons",
   "scripts": {
     "coverage": "nyc npm run test",
+    "start": "bin/www",
     "test": "ENV=test ava -v -s"
   },
   "author": "",
