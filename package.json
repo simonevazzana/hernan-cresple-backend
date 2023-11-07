@@ -17,10 +17,5 @@
   "devDependencies": {
     "ava": "^5.3.1",
     "nyc": "^15.1.0"
-  },
-  "nyc": {
-    "exclude": [
-      "lib/utils/array-utils.js"
-    ]
   }
 }
