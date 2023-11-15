@@ -7,6 +7,9 @@ const schema = {
       },
       league: {
         type: 'string'
+      },
+      season: {
+        type: 'integer'
       }
     }
   }
